@@ -6,7 +6,6 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - (cd /home/ec2-user/pipeline-experiment)
   post_build:
     commands:
       - echo Build completed on `date`

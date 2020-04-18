@@ -12,6 +12,7 @@ phases:
       - echo Build completed on `date`
       
 artifacts:
-  - source: '**/*'
+  files:
+    - '**/*
   base-directory: 'html'
 

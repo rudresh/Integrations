@@ -13,6 +13,5 @@ phases:
       
 artifacts:
   - source: '**/*'
-  
   base-directory: 'html'
 

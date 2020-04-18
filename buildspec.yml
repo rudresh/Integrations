@@ -3,6 +3,10 @@ version: 0.2
 
 phases:
 
+  pre_build:
+    commands:
+      - cd /var/www/html/
+
   build:
     commands:
       - echo Build started on `date`
